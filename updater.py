@@ -13,7 +13,6 @@ Steps to update Factorio server:
 """
 
 WIN_WIDTH = 50
-PROGRESSBAR_MAX = 7
 
 def clone_directory(source_dir: str, dest_dir: str, exclusions=(), whitelist=False) -> bool: # False whitelist = blacklist
     if not os.path.exists(source_dir):
